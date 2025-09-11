@@ -9,9 +9,10 @@ public class Solution {
         System.out.println("Enter digits:");
 
         // Считываем большое число, введенное пользователем
-        String s = String.valueOf(console.nextLine());
+        String treasureAmount = String.valueOf(console.nextLine());
+        int digitsLength = treasureAmount.length();
 
         // Выводим количество цифр в числе
-        System.out.println(s.length());
+        System.out.println(digitsLength);
     }
 }
