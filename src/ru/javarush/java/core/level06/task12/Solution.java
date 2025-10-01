@@ -13,7 +13,7 @@ public class Solution {
 
         // Вычисляем абсолютную разницу между actualFrequency и targetFrequency
         if (Math.abs(actualFrequency - targetFrequency) < tolerance) {
-            System.out.println("Лазер откалиброван с допустимой точностью");
+            System.out.println("Лазер откалиброван с допустимой точностью!");
         } else {
             System.out.println("Требуется дополнительная калибровка");
         }
