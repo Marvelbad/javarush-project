@@ -8,9 +8,15 @@ package ru.javarush.java.core.level10.task13;
 public class Solution {
     public static void main(String[] args) {
         // Создаём переменную типа TrafficSignalState и задаём начальное значение RED
+        enum TrafficSignalState {
+            RED,
+            YELLOW,
+            GREEN
+        }
 
+        TrafficSignalState state = TrafficSignalState.RED;
 
         // Выводим текущее состояние светофора на экран
-
+        System.out.println(state);
     }
 }
