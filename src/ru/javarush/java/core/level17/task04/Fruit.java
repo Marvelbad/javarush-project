@@ -4,6 +4,6 @@ public class Fruit {
     String fruitColor;
 
     public void printColor() {
-        System.out.println(fruitColor + ": цвет фрукта.");
+        System.out.println("Цвет: " + fruitColor);
     }
 }
