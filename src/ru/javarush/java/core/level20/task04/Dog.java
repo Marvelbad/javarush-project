@@ -4,6 +4,6 @@ public class Dog implements Soundable {
 
     @Override
     public void makeSound() {
-        System.out.println("Woof!");
+        System.out.println("Woof");
     }
 }
