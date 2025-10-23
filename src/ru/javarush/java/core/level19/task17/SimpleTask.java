@@ -8,6 +8,6 @@ public class SimpleTask extends Task {
 
     @Override
     void complete() {
-        System.out.println("Задача " + title);
+        System.out.printf("Задача %s выполнена", title);
     }
 }
