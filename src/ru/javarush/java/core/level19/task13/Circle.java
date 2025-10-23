@@ -1,0 +1,14 @@
+package ru.javarush.java.core.level19.task13;
+
+public class Circle extends Shape {
+    public double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double area() {
+        return Math.PI * radius * radius;
+    }
+}
