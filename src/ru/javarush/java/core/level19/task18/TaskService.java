@@ -11,7 +11,7 @@ public class TaskService {
         repository.save(task);
     }
 
-    void completeTask(String title) {
+    void completedTask(String title) {
         Task task = repository.findByTitle(title);
         if (task != null) {
             task.complete();
