@@ -7,18 +7,18 @@ public class Solution {
         action.doAction();
     }
 
-    static class MultiAction implements interfaceA, interfaceB {
+    static class MultiAction implements InterfaceA, InterfaceB {
         @Override
         public void doAction() {
             System.out.println("Выполнено действие для обоих интерфейсов");
         }
     }
 
-    interface interfaceA {
+    interface InterfaceA {
         void doAction();
     }
 
-    interface interfaceB {
+    interface InterfaceB {
         void doAction();
     }
 }
