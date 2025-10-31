@@ -1,7 +1,7 @@
 package ru.javarush.java.core.level20.task19;
 
 public class Greeter {
-    GreetingStrategy strategy;
+    private GreetingStrategy strategy;
 
     public void setStrategy(GreetingStrategy strategy) {
         this.strategy = strategy;
