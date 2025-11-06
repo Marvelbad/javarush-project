@@ -8,14 +8,7 @@ interface Pressable {
 public class Solution {
     public static void main(String[] args) {
         // Создаем объект интерфейса Pressable "на лету" с помощью анонимного класса
-        Pressable p = new Pressable() {
-            @Override
-            public void activateEngine() {
-                System.out.println("Двигатели запущены! Мы летим к звёздам!");
-            }
-        };
-
-        // "Нажимаем" кнопку: вызываем метод активации
+        Pressable p = () -> System.out.println("Hello");
         p.activateEngine();
     }
 }
