@@ -8,7 +8,7 @@ public class Solution {
     public static void main(String[] args) {
         // Объявляем переменную палитры через интерфейс List,
         // а в качестве реализации используем LinkedList
-        List<String> palete = new ArrayList<>();
+        List<String> palete = new LinkedList<>();
 
         // Добавляем три цвета в палитру
         palete.add("красный");
