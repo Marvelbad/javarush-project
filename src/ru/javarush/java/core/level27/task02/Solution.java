@@ -7,7 +7,7 @@ import java.util.*;
 public class Solution {
     public static void main(String[] args) {
         // List хранит все предметы, включая повторы
-        List<Integer> numbersOne = Arrays.asList(3, 7, 3, 9);
+        List<Integer> numbersOne = new ArrayList<>(Arrays.asList(3, 7, 3, 9));
 
         // Set хранит только уникальные предметы (повторы игнорируются)
         Set<Integer> numbersTwo = new HashSet<>();
@@ -19,7 +19,7 @@ public class Solution {
         numbersTwo.add(9);
 
         // Выводим количество: сначала общее (List), затем уникальное (Set)
-        System.out.println(numbersOne);
-        System.out.println(numbersTwo);
+        System.out.println(numbersOne.size());
+        System.out.println(numbersTwo.size());
     }
 }
