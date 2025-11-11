@@ -1,5 +1,7 @@
 package ru.javarush.java.core.level27.task07;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
@@ -15,8 +17,11 @@ public class Solution {
         levels.put(7, "платиновый");
 
         // Считываем количество баллов клиента
+        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+        int points = Integer.parseInt(console.readLine());
+
         int score = 4;
-        int flooredKey = levels.floorKey(score);
+        int flooredKey = levels.floorKey(points);
 
         // Находим наибольший ключ, не превышающий количество баллов
         System.out.println(levels.get(flooredKey));
