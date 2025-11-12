@@ -18,13 +18,13 @@ public class Solution {
 
         // Считываем количество баллов клиента
         BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
-        int points = Integer.parseInt(console.readLine());
+//        int points = Integer.parseInt(console.readLine());
 
-        int score = 4;
-        int flooredKey = levels.floorKey(points);
+//        int score = 4;
+//        int flooredKey = levels.floorKey(points);
 
         // Находим наибольший ключ, не превышающий количество баллов
-        System.out.println(levels.get(flooredKey));
+//        System.out.println(levels.get(flooredKey));
 
         // Получаем и выводим название уровня (если порога нет — выводим сообщение)
 
