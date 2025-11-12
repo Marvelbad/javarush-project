@@ -17,9 +17,7 @@ public class Solution {
 
         // Проходим по каждому "сундуку" и добавляем его содержимое
         for (List<Integer> list : treasureChests) {
-            for (Integer num : list) {
-                allGems.add(num);
-            }
+            allGems.addAll(list);
         }
 
         // Выводим объединённый список
