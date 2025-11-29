@@ -16,7 +16,7 @@ public class Solution {
                 .orElse(0.0);
 
 
-        // Находим минимальную цену; если список пуст — -1
+        // Находим минимальную цену; если список пуст  -1
         int min = prices.stream()
                 .mapToInt(Integer::intValue)
                 .min()
